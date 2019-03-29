@@ -1,0 +1,5 @@
+#!/bin/bash
+USERNAME=lzx1026078111
+PASSWORD=H8C-te5-GeJ-eQh
+
+docker build -t $IMAGE_NAME --build-arg USERNAME=$USERNAME --build-arg PASSWORD=$PASSWORD .

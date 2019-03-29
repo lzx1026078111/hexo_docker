@@ -1,8 +1,5 @@
 FROM lzx0906/base-hexo
 LABEL author=LiZongXing mail=1026078111@qq.com
-ARG username
-ARG password
-
 
 RUN git clone https://github.com/lzx1026078111/hexo-theme-icarus.git themes/icarus && \
 cd themes/icarus && rm -rf .git
